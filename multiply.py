@@ -4,7 +4,7 @@ def multiply_list():
     num_list=strg_input.split()
     for i in range(len(num_list)):
         num_list[i]=int(num_list[i])
-
-    for x in num_list:
-        total =  num_list[x]*num_list[x+1]
+    total=0
+    total = [x*(x+1) for x in num_list]
+    
     return total    
