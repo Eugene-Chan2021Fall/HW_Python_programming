@@ -9,8 +9,8 @@ def calculate_time(func):
     return inner
 
 @calculate_time
-def 2_Funct(n):
+def Funct_2(n):
     time.sleep(n)
 
 if __name__ == "__main__":
-    2_Funct(2)
+    Funct_2(2)
