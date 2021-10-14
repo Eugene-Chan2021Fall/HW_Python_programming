@@ -4,7 +4,7 @@ def calculate_time(func):
     def inner(*arg):
         seconds=time.time()
         res = func(*arg)
-        print("Total time "+str(time.time()-t))
+        print("Total time "+str(time.time()))
         return res
     return inner
 
