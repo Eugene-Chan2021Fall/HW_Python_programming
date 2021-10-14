@@ -17,6 +17,8 @@ def calculator(num_1, num_2, optr):
         total = num_1 * num_2
         return total
     if optr == "/":
+	if (num_2==0):
+		return false
         total = num_1 / num_2
         return total
 
