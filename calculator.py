@@ -1,4 +1,7 @@
 def parse_input():
+'''
+created an if loop to accomodate each mathematical operators so that computation can be made correctly and a if loop is needed for division operator for which dividing by zero will be an error
+'''
     input1 = input("Enter value_1: ")
     input2 = input("Enter value_2: ")
     input3 = input("Enter an operator (+,-,*,/,//,**): ")
